@@ -74,6 +74,10 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   height: 298px;
   overflow-y: auto;
 }
@@ -87,6 +91,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -98,12 +103,6 @@ ol {
 }
 
 .content__list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.content__list-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -322,12 +321,4 @@ ol {
 
 .content__list-item {
   padding: 0 3px;
-}
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
 }
